@@ -1,0 +1,105 @@
+footer {
+    background-color: rgba(64, 64, 64, 1);
+    color: #ccc;
+    padding: 40px 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.newsletter {
+    flex: 1 1 100%;
+    max-width: 300px;
+}
+
+.newsletter p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.email-input {
+    display: flex;
+}
+
+.email-input input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 3px 0 0 3px;
+    background-color: rgba(64, 64, 64, 1);
+}
+
+.email-input button {
+    padding: 10px;
+    border: none;
+    background-color: rgba(64, 64, 64, 1);
+    color: #fff;
+    border-radius: 1px solid #ccc;
+}
+
+.checkbox {
+    margin-top: 10px;
+}
+
+.checkbox label {
+    font-size: 14px;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 150px;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer-column a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    right: 670px;
+}
+
+.social-icons a {
+    color: #ccc;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    position: relative;
+    right: 600px;
+}
