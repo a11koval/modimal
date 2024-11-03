@@ -1,0 +1,79 @@
+/* Basic Section Styling */
+.best-sellers {
+    padding: 35px;
+
+}
+
+.best-sellers-title {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44.8px;
+    text-align: left;
+
+}
+
+.products-grid {
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+}
+
+.product {
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.product h6 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    text-align: left;
+
+}
+
+.product-text{
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+line-height: 28.8px;
+text-align: left;
+color: #0C0C0C;
+}
+
+.price {
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 22.4px;
+text-align: left;
+color: #0C0C0C;
+text-align: right;
+}
+
+/* Color Options */
+.color-options {
+    display: flex;
+    justify-content: center;
+    gap: 0.3em;
+    margin-top: 8px;
+}
+
+.color-option {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+.best-sellers-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
