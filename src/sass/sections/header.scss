@@ -67,9 +67,7 @@
     display: flex;
   }
   
-  .navbar li {
-    position: relative;
-  }
+  
   
   .dropbtn {
     padding: 10px;
@@ -89,6 +87,8 @@
     border: 1px solid #ddd;
     width: 100vw;
     height: 550px;
+    left: 0;
+    top: 70px;
   }
   
  
@@ -114,5 +114,8 @@
   .dropdown:hover .dropdown-content {
     display: flex;
   }
-  
+  .dropup, .dropend, .dropdown, .dropstart, .dropup-center, .dropdown-center {
+    
+    position: static;
+}
   
