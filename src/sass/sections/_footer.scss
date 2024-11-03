@@ -80,7 +80,6 @@ footer {
 .footer-bottom {
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin-top: 20px;
 }
 
@@ -88,8 +87,6 @@ footer {
     display: flex;
     gap: 10px;
     margin-bottom: 10px;
-    position: relative;
-    right: 670px;
 }
 
 .social-icons a {
@@ -100,6 +97,9 @@ footer {
 
 .footer-bottom p {
     font-size: 14px;
+}
+
+.box{
     position: relative;
-    right: 600px;
+    left: 1250px;
 }
