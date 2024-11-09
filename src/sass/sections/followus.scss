@@ -1,0 +1,34 @@
+.button-followus{
+    background-color: #FFFFFF;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 44px;
+    padding-left: 44px;
+    border: none;
+}
+
+.photo-outfit{
+    display: flex;
+}
+
+.about-sustainability, .button-followus{
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 400;
+line-height: 36px;
+text-align: left;
+color: #272F25;
+}
+
+.title-section{
+font-family: Montserrat;
+font-size: 32px;
+font-weight: 600;
+line-height: 44.8px;
+text-align: center;
+color: #0C0C0C;
+}
+
+.sustainability{
+    background-image: url(img/Sustainability.bg-png.jpg);
+}
