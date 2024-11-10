@@ -16,9 +16,18 @@ a{
 
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../node_modules/swiper/swiper-bundle.min.css";
+
+@import "./sections/modiweek";
 @import "./sections/create";
 @import "./sections/header";
 @import "./sections/footer";
 @import "./sections/best-seller";
 @import "./sections/hero";
 @import "./sections/collection";
+
+
+.swiper {
+    width: 100%;
+    height: 600px;
+  }
