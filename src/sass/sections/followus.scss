@@ -46,7 +46,7 @@ color: #0C0C0C;
     flex-wrap: wrap;
 }
 
-.photo-left .img-clothes{
+.photo-left img{
         box-sizing: border-box;
         object-fit: cover;
         display: block;
@@ -54,10 +54,21 @@ color: #0C0C0C;
         width: 100%;
 }
 
-.photo-right .img-clothes{
+.photo-right img{
         box-sizing: border-box;
         object-fit: cover;
         display: block;
         height: auto;
         width: 50%;
-    }
+ }
+
+ .bg-sustainability{
+    width: 495px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+ }
+
+ .sustainability .container{
+    position: relative;
+ }
