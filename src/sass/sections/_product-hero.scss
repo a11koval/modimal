@@ -1,0 +1,306 @@
+.all-filter-hero {
+    background-image: url(../img/product-hero.png);
+    background-size: cover;
+    height: 655px;
+}
+
+.fillter-nav {
+    padding: 45px 0;
+}
+
+.fillter-nav-lin-left {
+    padding-right: 20px;
+    color: #748C70;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fillter-nav-lin-right {
+    padding-left: 20px;
+    color: #0C0C0C;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.section1-nav-div {
+    padding-top: 32px;
+    padding-bottom: 48px;
+    display: flex;
+
+    a {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32.4px;
+        text-align: center;
+        text-transform: capitalize;
+        padding: 0 16px;
+
+        &:first-child {
+            padding-left: 0;
+        }
+    }
+
+    p {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32.4px;
+        text-align: center;
+        color: #606060;
+        padding: 0 8px;
+        margin: 0;
+    }
+}
+
+.sellers-subtitle {
+    text-transform: capitalize;
+}
+
+
+.section1-backround {
+    height: 655px;
+    background-image: url('../../img/section1-backround.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+.all-filter-left {
+    padding-top: 48px;
+    padding-right: 24px;
+}
+
+.section1-part1-p {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44.8px;
+    text-align: center;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.section1-part1-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.section1-part1-item {
+    display: flex;
+    justify-content: space-between;
+    background: #748C70;
+    width: 392px;
+    padding: 13px 16px;
+    align-items: center;
+
+    p {
+        color: white;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22.4px;
+        text-align: left;
+        margin: 0;
+    }
+}
+
+.section1-part1-item-box {
+    padding-bottom: 16px;
+}
+
+.svg-s1 {
+    width: 14px;
+    height: 14px;
+    fill: white;
+}
+
+
+
+
+.all-filter-right {
+    padding: 48px 0;
+    text-align: center;
+}
+
+.product-div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product-box {
+    text-align: center;
+    position: relative;
+    padding-bottom: 48px;
+}
+
+
+.sellers-subtitle {
+
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    text-align: left;
+
+    margin: 10px 0 5px;
+}
+
+.sellers-text {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+
+}
+
+
+.color-options {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+
+}
+
+.color-circle {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: none;
+}
+
+.heart-icon-div {
+    position: absolute;
+    top: 20px;
+    right: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    width: 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(41, 0, 0, 0);
+    cursor: pointer;
+}
+
+.svg-sbest-path {
+    fill: white;
+    transition: fill 0.1s ease-in;
+    stroke: black;
+    stroke-width: 2px;
+    stroke-linejoin: round;
+}
+
+#heart-checkbox:checked+label .svg-sbest-path {
+    fill: rgb(172, 57, 57);
+}
+
+#heart-checkbox-2:checked+label .svg-sbest-path {
+    fill: rgb(172, 57, 57);
+}
+
+#heart-checkbox-3:checked+label .svg-sbest-path {
+    fill: rgb(172, 57, 57);
+}
+
+#heart-checkbox-4:checked+label .svg-sbest-path {
+    fill: rgb(172, 57, 57);
+}
+
+#heart-checkbox-5:checked+label .svg-sbest-path {
+    fill: rgb(172, 57, 57);
+}
+
+#heart-checkbox-6:checked+label .svg-sbest-path {
+    fill: rgb(172, 57, 57);
+}
+
+.color-black {
+    background-color: #0C0C0C;
+}
+
+.color-blue {
+    background: #7DC3EB;
+}
+
+.color-green {
+    background: #748C70;
+}
+
+.color-purple {
+    background: #D0A5EA;
+
+}
+
+.color-olive {
+    background: #909225;
+
+}
+
+.color-orange {
+    background: #CA6D29;
+
+}
+
+.color-blue-dark {
+    background: #19418E;
+}
+
+.color-beige {
+    background-color: #D3B48F;
+}
+
+.img-produ-card {
+    width: 387px;
+}
+
+.selers-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .price {
+        margin: 0;
+        color: #0C0C0C;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22.4px;
+        text-align: left;
+
+    }
+
+    p {
+        margin: 0;
+    }
+}
+
+
+.buton-uu-s1 {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #5A6D57;
+    background-color: white;
+    border: 1px solid #5A6D57;
+    padding: 8px 54px;
+}
