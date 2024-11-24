@@ -6,29 +6,31 @@
   }
 
   .grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, auto);
-    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 1450px;
+    justify-content: space-between;
   }
 
   .item {
     position: relative;
-    overflow: hidden;
+    width: 48%;
   }
 
   .item img {
     width: 100%;
     height: auto;
     display: block;
+    object-fit: cover;
   }
 
-  .item1{
-      width: 600px;
+  
+  .item1{ 
       height: 518px;
-      position: relative;
-      left: 50px;
   }
+
+  /*
   .item2{
       width: 600px;
       height: 840px;
@@ -47,6 +49,7 @@
       left: 655px;
       bottom: 725px;
   }
+  */
 
   .label1{
     position: absolute;
@@ -97,8 +100,3 @@
     height: 40px;
     text-align: center;
   }
-
-  .item1 { grid-column: span 2; grid-row: span 2; }
-  .item2 { grid-column: span 2; }
-  .item3 { grid-column: span 2; }
-  .item4 { grid-column: span 2; }
