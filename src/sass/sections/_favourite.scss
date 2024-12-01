@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.wishlist-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.wishlist-header {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.wishlist-header h1 {
+    font-size: 22px;
+    margin: 0;
+    position: relative;
+    left: 300px;
+}
+
+.wishlist-header p {
+    font-size: 14px;
+    color: #777;
+    position: relative;
+    right: 20px;
+}
+
+.wishlist-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.wishlist-item:last-child {
+    border-bottom: none;
+}
+
+.wishlist-image {
+    flex: 1;
+    max-width: 120px;
+    margin-right: 20px;
+}
+
+.wishlist-image img {
+    width: 392px;
+    position: relative;
+    right: 260px;
+}
+
+.wishlist-details {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.wishlist-details h2 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: normal;
+    position: relative;
+    top: 320px;
+    right: 390px;
+    color: rgba(12, 12, 12, 1);
+}
+
+.wishlist-details p {
+    font-size: 14px;
+    color: #555;
+    position: relative;
+    top: 305px;
+    right: 640px;
+}
+
+.wishlist-price {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 8px;
+    position: relative;
+    top: 260px;
+    right: 70px;
+    color: rgba(12, 12, 12, 1);
+    
+}
+
+.wishlist-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.wishlist-heart {
+    font-size: 40px;
+    cursor: pointer;
+    position: relative;
+    right: 670px;
+    bottom: 220px;
+}
+
+.color-options {
+    margin-top: 10px;
+}
+
+.color-options span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+    border: 1px solid #ddd;
+}
+
+.color-green {
+    background-color: rgba(116, 140, 112, 1);
+    position: relative;
+    top: 247px;
+    right: 660px;
+}
+
+.color-black {
+    background-color: rgba(12, 12, 12, 1);
+    position: relative;
+    top: 247px;
+    right: 660px;
+}
